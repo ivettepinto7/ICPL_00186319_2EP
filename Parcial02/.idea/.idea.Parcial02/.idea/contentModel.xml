@@ -6,7 +6,9 @@
     <e p="C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Modelo" t="Include" />
+      <e p="Modelo" t="Include">
+        <e p="ConnectionDB.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
