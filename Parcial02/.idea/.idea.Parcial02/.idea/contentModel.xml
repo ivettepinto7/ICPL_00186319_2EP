@@ -6,10 +6,10 @@
     <e p="C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
+      <e p="Modelo" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
       <e p="Parcial02.csproj" t="IncludeRecursive" />
       <e p="Parcial02.sln" t="IncludeFlat" />
       <e p="Program.cs" t="Include" />
@@ -19,6 +19,12 @@
         <e p="Resources.resx" t="Include" />
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="Resources" t="Include" />
+      <e p="Vista" t="Include">
+        <e p="frmInicioSesion.cs" t="Include" />
+        <e p="frmInicioSesion.Designer.cs" t="Include" />
+        <e p="frmInicioSesion.resx" t="Include" />
       </e>
     </e>
   </component>
