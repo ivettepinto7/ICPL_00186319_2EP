@@ -1,0 +1,9 @@
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\bin\Debug\Parcial02.exe.config
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\bin\Debug\Parcial02.exe
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\bin\Debug\Parcial02.pdb
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.csprojAssemblyReference.cache
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.Properties.Resources.resources
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.csproj.GenerateResource.cache
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.csproj.CoreCompileInputs.cache
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.exe
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.pdb

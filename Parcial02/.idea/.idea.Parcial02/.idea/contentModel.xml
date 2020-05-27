@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ivett\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ivett\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Parcial02.1303541760.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Form1.cs" t="Include" />
+      <e p="Form1.Designer.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Parcial02.csproj" t="IncludeRecursive" />
+      <e p="Parcial02.sln" t="IncludeFlat" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.cs" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
