@@ -45,25 +45,41 @@ namespace Parcial02
             this.dgUsuarios = new System.Windows.Forms.DataGridView();
             this.cmbUsuarios = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dgNegocios = new System.Windows.Forms.DataGridView();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.cmbNegocios = new System.Windows.Forms.ComboBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnDeleteProd = new System.Windows.Forms.Button();
+            this.cmbProds = new System.Windows.Forms.ComboBox();
+            this.btnAddProdtoNeg = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtNuevoProd = new System.Windows.Forms.TextBox();
+            this.cmbNegociosProd = new System.Windows.Forms.ComboBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dgOrdenes = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dgUsuarios)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgNegocios)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgOrdenes)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -128,9 +144,9 @@ namespace Parcial02
             this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnEliminar.Location = new System.Drawing.Point(137, 344);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(165, 47);
+            this.btnEliminar.Size = new System.Drawing.Size(190, 47);
             this.btnEliminar.TabIndex = 11;
-            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.Text = "Eliminar usuarios";
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
@@ -200,8 +216,9 @@ namespace Parcial02
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.Controls.Add(this.dgNegocios);
             this.tabPage2.Controls.Add(this.btnDelete);
-            this.tabPage2.Controls.Add(this.comboBox1);
+            this.tabPage2.Controls.Add(this.cmbNegocios);
             this.tabPage2.Controls.Add(this.btnAdd);
             this.tabPage2.Controls.Add(this.txtDescripcion);
             this.tabPage2.Controls.Add(this.txtNombre);
@@ -215,11 +232,66 @@ namespace Parcial02
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Negocios";
             // 
+            // dgNegocios
+            // 
+            this.dgNegocios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgNegocios.Location = new System.Drawing.Point(500, 113);
+            this.dgNegocios.Name = "dgNegocios";
+            this.dgNegocios.Size = new System.Drawing.Size(266, 285);
+            this.dgNegocios.TabIndex = 8;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.Red;
+            this.btnDelete.Location = new System.Drawing.Point(315, 338);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(174, 47);
+            this.btnDelete.TabIndex = 7;
+            this.btnDelete.Text = "Eliminar negocio";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // cmbNegocios
+            // 
+            this.cmbNegocios.FormattingEnabled = true;
+            this.cmbNegocios.Location = new System.Drawing.Point(103, 353);
+            this.cmbNegocios.Name = "cmbNegocios";
+            this.cmbNegocios.Size = new System.Drawing.Size(186, 21);
+            this.cmbNegocios.TabIndex = 6;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAdd.Location = new System.Drawing.Point(206, 254);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(179, 48);
+            this.btnAdd.TabIndex = 5;
+            this.btnAdd.Text = "Agregar negocio";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(262, 209);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(146, 20);
+            this.txtDescripcion.TabIndex = 4;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(262, 140);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(146, 20);
+            this.txtNombre.TabIndex = 3;
+            // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(75, 232);
+            this.label5.Location = new System.Drawing.Point(77, 189);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label5.Size = new System.Drawing.Size(196, 40);
@@ -250,49 +322,96 @@ namespace Parcial02
             this.label3.Text = "Añadir negocios";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtNombre
+            // tabPage3
             // 
-            this.txtNombre.Location = new System.Drawing.Point(262, 140);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(146, 20);
-            this.txtNombre.TabIndex = 3;
+            this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.btnDeleteProd);
+            this.tabPage3.Controls.Add(this.cmbProds);
+            this.tabPage3.Controls.Add(this.btnAddProdtoNeg);
+            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.txtNuevoProd);
+            this.tabPage3.Controls.Add(this.cmbNegociosProd);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(792, 424);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Productos";
             // 
-            // txtDescripcion
+            // btnDeleteProd
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(262, 244);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(146, 20);
-            this.txtDescripcion.TabIndex = 4;
+            this.btnDeleteProd.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.btnDeleteProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnDeleteProd.Location = new System.Drawing.Point(262, 299);
+            this.btnDeleteProd.Name = "btnDeleteProd";
+            this.btnDeleteProd.Size = new System.Drawing.Size(170, 44);
+            this.btnDeleteProd.TabIndex = 5;
+            this.btnDeleteProd.Text = "Eliminar producto";
+            this.btnDeleteProd.UseVisualStyleBackColor = false;
+            this.btnDeleteProd.Click += new System.EventHandler(this.btnDeleteProd_Click);
             // 
-            // btnAdd
+            // cmbProds
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnAdd.Location = new System.Drawing.Point(195, 309);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(179, 48);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Agregar negocio";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.cmbProds.FormattingEnabled = true;
+            this.cmbProds.Location = new System.Drawing.Point(150, 231);
+            this.cmbProds.Name = "cmbProds";
+            this.cmbProds.Size = new System.Drawing.Size(324, 21);
+            this.cmbProds.TabIndex = 4;
             // 
-            // comboBox1
+            // btnAddProdtoNeg
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(535, 192);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(186, 21);
-            this.comboBox1.TabIndex = 6;
+            this.btnAddProdtoNeg.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.btnAddProdtoNeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAddProdtoNeg.Location = new System.Drawing.Point(262, 154);
+            this.btnAddProdtoNeg.Name = "btnAddProdtoNeg";
+            this.btnAddProdtoNeg.Size = new System.Drawing.Size(170, 44);
+            this.btnAddProdtoNeg.TabIndex = 3;
+            this.btnAddProdtoNeg.Text = "Agregar producto";
+            this.btnAddProdtoNeg.UseVisualStyleBackColor = false;
+            this.btnAddProdtoNeg.Click += new System.EventHandler(this.btnAddProdtoNeg_Click);
             // 
-            // btnDelete
+            // label6
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnDelete.Location = new System.Drawing.Point(535, 244);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(174, 47);
-            this.btnDelete.TabIndex = 7;
-            this.btnDelete.Text = "Eliminar negocio";
-            this.btnDelete.UseVisualStyleBackColor = false;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(150, 106);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(138, 23);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Nombre:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtNuevoProd
+            // 
+            this.txtNuevoProd.Location = new System.Drawing.Point(314, 106);
+            this.txtNuevoProd.Name = "txtNuevoProd";
+            this.txtNuevoProd.Size = new System.Drawing.Size(148, 20);
+            this.txtNuevoProd.TabIndex = 1;
+            // 
+            // cmbNegociosProd
+            // 
+            this.cmbNegociosProd.FormattingEnabled = true;
+            this.cmbNegociosProd.Location = new System.Drawing.Point(150, 45);
+            this.cmbNegociosProd.Name = "cmbNegociosProd";
+            this.cmbNegociosProd.Size = new System.Drawing.Size(324, 21);
+            this.cmbNegociosProd.TabIndex = 0;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.Black;
+            this.tabPage4.Controls.Add(this.dgOrdenes);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(792, 424);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Ordenes";
+            // 
+            // dgOrdenes
+            // 
+            this.dgOrdenes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgOrdenes.Location = new System.Drawing.Point(21, 42);
+            this.dgOrdenes.Name = "dgOrdenes";
+            this.dgOrdenes.Size = new System.Drawing.Size(747, 351);
+            this.dgOrdenes.TabIndex = 0;
             // 
             // frmPrincipal
             // 
@@ -313,15 +432,26 @@ namespace Parcial02
             ((System.ComponentModel.ISupportInitialize) (this.dgUsuarios)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgNegocios)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.dgOrdenes)).EndInit();
             this.ResumeLayout(false);
         }
 
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnAddProdtoNeg;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnDeleteProd;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.ComboBox cmbNegocios;
+        private System.Windows.Forms.ComboBox cmbNegociosProd;
+        private System.Windows.Forms.ComboBox cmbProds;
         private System.Windows.Forms.ComboBox cmbUsuarios;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView dgNegocios;
+        private System.Windows.Forms.DataGridView dgOrdenes;
         private System.Windows.Forms.DataGridView dgUsuarios;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
@@ -329,14 +459,18 @@ namespace Parcial02
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RadioButton rbAdmin;
         private System.Windows.Forms.RadioButton rbUser;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtNuevoProd;
         private System.Windows.Forms.TextBox txtUsername;
 
         #endregion

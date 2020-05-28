@@ -10,7 +10,7 @@
 
         public AppUser()
         {
-            idUser = -1;
+            idUser = 0;
             fullname = "";
             username = "";
             password = "";

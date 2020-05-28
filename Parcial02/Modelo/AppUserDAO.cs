@@ -66,11 +66,11 @@ namespace Parcial02.Modelo
             ConnectionDB.ExecuteNonQuery(sql);
         }
 
-        public static void EliminarUsuario(int iduser, string user)
+        public static void EliminarUsuario(int iduser)
         {
             string sql = string.Format(
                 "DELETE FROM appuser WHERE idUser={0};",
-                iduser, user);
+                iduser);
             ConnectionDB.ExecuteNonQuery(sql);
         }
     }

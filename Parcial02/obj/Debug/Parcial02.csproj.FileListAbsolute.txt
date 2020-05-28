@@ -33,3 +33,4 @@ C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\bin\Debug\System.ValueTuple.x
 C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.csproj.CopyComplete
 C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.frmCambiarContra.resources
 C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.frmPrincipal.resources
+C:\Users\ivett\Desktop\ICPL_00186319_2EP\Parcial02\obj\Debug\Parcial02.frmUsuario.resources

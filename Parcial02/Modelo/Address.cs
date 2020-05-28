@@ -8,8 +8,8 @@
 
         public Address()
         {
-            idAddress = -1;
-            idUser = -1;
+            idAddress = 0;
+            idUser = 0;
             address = "";
         }
     }

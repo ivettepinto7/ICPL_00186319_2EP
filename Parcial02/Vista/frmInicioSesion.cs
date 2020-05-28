@@ -33,9 +33,17 @@ namespace Parcial02
                 {
                     MessageBox.Show("!Bienvenido!", "Hugo App",
                         MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    frmPrincipal ventana = new frmPrincipal(user);
-                    ventana.Show();
-                    this.Hide();
+                    if (user.userType == true)
+                    {
+                        frmPrincipal ventana = new frmPrincipal(user);
+                        ventana.Show();
+                        this.Hide();
+                    }else if (user.userType == false)
+                    {
+                        frmUsuario ventana2 = new frmUsuario(user);
+                        ventana2.Show();
+                        this.Hide();
+                    }
                 }
             }
             catch (Exception)
@@ -49,11 +57,11 @@ namespace Parcial02
         private void btnActualizarContra_Click(object sender, EventArgs e)
         {
             try
-            {
+            { 
                 var user = AppUserDAO.GetUsuario(txtUsername.Text, txtPassword.Text);
-                if (user.username.Equals(" "))
+                if (txtUsername.Text.Equals("") || txtPassword.Text.Equals(""))
                 {
-                    MessageBox.Show("Usuario y/o contraseña incorrectos",
+                    MessageBox.Show("Usuario y/o contraseña inválida",
                         "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
