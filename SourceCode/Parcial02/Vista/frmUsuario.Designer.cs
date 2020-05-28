@@ -33,6 +33,7 @@ namespace Parcial02
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.ntnDeleteAddress = new System.Windows.Forms.Button();
             this.dgAddress = new System.Windows.Forms.DataGridView();
             this.btnActualizarDireccion = new System.Windows.Forms.Button();
             this.txtNewAddress = new System.Windows.Forms.TextBox();
@@ -42,6 +43,8 @@ namespace Parcial02
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.cmbOrders = new System.Windows.Forms.ComboBox();
+            this.btnDeleteOrder = new System.Windows.Forms.Button();
             this.cmbDirecciones = new System.Windows.Forms.ComboBox();
             this.cmbProductos = new System.Windows.Forms.ComboBox();
             this.dgOrders = new System.Windows.Forms.DataGridView();
@@ -70,6 +73,7 @@ namespace Parcial02
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Black;
+            this.tabPage1.Controls.Add(this.ntnDeleteAddress);
             this.tabPage1.Controls.Add(this.dgAddress);
             this.tabPage1.Controls.Add(this.btnActualizarDireccion);
             this.tabPage1.Controls.Add(this.txtNewAddress);
@@ -83,7 +87,20 @@ namespace Parcial02
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(792, 424);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Direcciones";
+            // 
+            // ntnDeleteAddress
+            // 
+            this.ntnDeleteAddress.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.ntnDeleteAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ntnDeleteAddress.ForeColor = System.Drawing.Color.Red;
+            this.ntnDeleteAddress.Location = new System.Drawing.Point(238, 305);
+            this.ntnDeleteAddress.Name = "ntnDeleteAddress";
+            this.ntnDeleteAddress.Size = new System.Drawing.Size(165, 38);
+            this.ntnDeleteAddress.TabIndex = 9;
+            this.ntnDeleteAddress.Text = "Eliminar direccion";
+            this.ntnDeleteAddress.UseVisualStyleBackColor = false;
+            this.ntnDeleteAddress.Click += new System.EventHandler(this.ntnDeleteAddress_Click);
             // 
             // dgAddress
             // 
@@ -97,7 +114,7 @@ namespace Parcial02
             // 
             this.btnActualizarDireccion.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnActualizarDireccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizarDireccion.Location = new System.Drawing.Point(112, 306);
+            this.btnActualizarDireccion.Location = new System.Drawing.Point(28, 305);
             this.btnActualizarDireccion.Name = "btnActualizarDireccion";
             this.btnActualizarDireccion.Size = new System.Drawing.Size(165, 38);
             this.btnActualizarDireccion.TabIndex = 6;
@@ -164,6 +181,8 @@ namespace Parcial02
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.Controls.Add(this.cmbOrders);
+            this.tabPage2.Controls.Add(this.btnDeleteOrder);
             this.tabPage2.Controls.Add(this.cmbDirecciones);
             this.tabPage2.Controls.Add(this.cmbProductos);
             this.tabPage2.Controls.Add(this.dgOrders);
@@ -177,6 +196,27 @@ namespace Parcial02
             this.tabPage2.Size = new System.Drawing.Size(792, 424);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Orden";
+            // 
+            // cmbOrders
+            // 
+            this.cmbOrders.FormattingEnabled = true;
+            this.cmbOrders.Location = new System.Drawing.Point(70, 328);
+            this.cmbOrders.Name = "cmbOrders";
+            this.cmbOrders.Size = new System.Drawing.Size(135, 21);
+            this.cmbOrders.TabIndex = 16;
+            // 
+            // btnDeleteOrder
+            // 
+            this.btnDeleteOrder.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
+            this.btnDeleteOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteOrder.ForeColor = System.Drawing.Color.Red;
+            this.btnDeleteOrder.Location = new System.Drawing.Point(284, 318);
+            this.btnDeleteOrder.Name = "btnDeleteOrder";
+            this.btnDeleteOrder.Size = new System.Drawing.Size(165, 38);
+            this.btnDeleteOrder.TabIndex = 15;
+            this.btnDeleteOrder.Text = "Eliminar orden";
+            this.btnDeleteOrder.UseVisualStyleBackColor = false;
+            this.btnDeleteOrder.Click += new System.EventHandler(this.btnDeleteOrder_Click);
             // 
             // cmbDirecciones
             // 
@@ -271,8 +311,10 @@ namespace Parcial02
         private System.Windows.Forms.Button btnActualizarDireccion;
         private System.Windows.Forms.Button btnAddAddress;
         private System.Windows.Forms.Button btnAddOrder;
+        private System.Windows.Forms.Button btnDeleteOrder;
         private System.Windows.Forms.ComboBox cmbAddress;
         private System.Windows.Forms.ComboBox cmbDirecciones;
+        private System.Windows.Forms.ComboBox cmbOrders;
         private System.Windows.Forms.ComboBox cmbProductos;
         private System.Windows.Forms.DataGridView dgAddress;
         private System.Windows.Forms.DataGridView dgOrders;
@@ -281,6 +323,7 @@ namespace Parcial02
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button ntnDeleteAddress;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;

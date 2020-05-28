@@ -36,7 +36,12 @@ namespace Parcial02
 
             dgOrders.DataSource = null;
             dgOrders.DataSource = AppOrderDAO.GetLista();
-            
+
+            cmbOrders.DataSource = null;
+            cmbOrders.ValueMember = "idOrder";
+            cmbOrders.DisplayMember = "product";
+            cmbOrders.DataSource = AppOrderDAO.GetLista();
+
         }
 
         void actualizarDatos()
@@ -46,6 +51,7 @@ namespace Parcial02
             cmbProductos.DataSource = ProducDAO.GetLista();
             cmbDirecciones.DataSource = AddressDAO.GetLista();
             dgOrders.DataSource = AppOrderDAO.GetLista();
+            cmbOrders.DataSource = AppOrderDAO.GetLista();
         }
 
 
@@ -122,6 +128,48 @@ namespace Parcial02
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void ntnDeleteAddress_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show("¿Seguro que desea eliminar la dirección?",
+                    "Hugo App", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes);
+                {
+                    int ida = Convert.ToInt32(cmbAddress.SelectedValue.ToString());
+                    AddressDAO.EliminarDire(ida,cmbAddress.Text);
+                        MessageBox.Show("Se eliminó la dirección",
+                        "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    actualizarDatos();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        private void btnDeleteOrder_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show("¿Seguro que desea eliminar la orden?",
+                    "Hugo App", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes);
+                {
+                    int ido = Convert.ToInt32(cmbOrders.SelectedValue.ToString());
+                    AppOrderDAO.EliminarOrden(ido);
+                    MessageBox.Show("Se eliminó la orden",
+                        "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    actualizarDatos();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
         }
     }
 }
