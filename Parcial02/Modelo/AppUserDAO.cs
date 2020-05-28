@@ -69,7 +69,7 @@ namespace Parcial02.Modelo
         public static void EliminarUsuario(int iduser)
         {
             string sql = string.Format(
-                "DELETE FROM appuser WHERE idUser={0};",
+                "DELETE FROM appuser WHERE idUser='{0}';",
                 iduser);
             ConnectionDB.ExecuteNonQuery(sql);
         }

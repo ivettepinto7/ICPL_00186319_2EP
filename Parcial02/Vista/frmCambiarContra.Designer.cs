@@ -43,9 +43,6 @@ namespace Parcial02
             this.labelUser = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tableLayoutPanel1
-            // 
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -71,9 +68,6 @@ namespace Parcial02
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(734, 461);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
             this.tableLayoutPanel1.SetColumnSpan(this.label1, 2);
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
@@ -84,9 +78,6 @@ namespace Parcial02
             this.label1.TabIndex = 0;
             this.label1.Text = "Actualizar contraseña";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -96,9 +87,6 @@ namespace Parcial02
             this.label2.TabIndex = 1;
             this.label2.Text = "Usuario:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.White;
@@ -108,9 +96,6 @@ namespace Parcial02
             this.label3.TabIndex = 2;
             this.label3.Text = "Nueva contraseña:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 228);
@@ -120,25 +105,18 @@ namespace Parcial02
             this.label4.TabIndex = 3;
             this.label4.Text = "Confirmar contraseña:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtNcontra
-            // 
             this.txtNcontra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNcontra.Location = new System.Drawing.Point(423, 180);
             this.txtNcontra.Name = "txtNcontra";
+            this.txtNcontra.PasswordChar = '*';
             this.txtNcontra.Size = new System.Drawing.Size(254, 20);
             this.txtNcontra.TabIndex = 5;
-            // 
-            // txtCcontra
-            // 
             this.txtCcontra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCcontra.Location = new System.Drawing.Point(423, 256);
             this.txtCcontra.Name = "txtCcontra";
+            this.txtCcontra.PasswordChar = '*';
             this.txtCcontra.Size = new System.Drawing.Size(254, 20);
             this.txtCcontra.TabIndex = 6;
-            // 
-            // btnUpdateContra
-            // 
             this.btnUpdateContra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnUpdateContra.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnUpdateContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -149,9 +127,6 @@ namespace Parcial02
             this.btnUpdateContra.Text = "Actualizar contraseña";
             this.btnUpdateContra.UseVisualStyleBackColor = false;
             this.btnUpdateContra.Click += new System.EventHandler(this.btnUpdateContra_Click);
-            // 
-            // btnCancel
-            // 
             this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -162,9 +137,6 @@ namespace Parcial02
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // labelUser
-            // 
             this.labelUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.labelUser.ForeColor = System.Drawing.Color.White;
@@ -175,9 +147,6 @@ namespace Parcial02
             this.labelUser.TabIndex = 11;
             this.labelUser.Text = "Label";
             this.labelUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // frmCambiarContra
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;

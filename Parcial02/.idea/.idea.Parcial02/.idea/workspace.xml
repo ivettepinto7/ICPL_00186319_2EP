@@ -20,22 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1b3867-a25d-4b88-acd0-56040f5f9cf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial02/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Address.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/AppUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelo/AppUserDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/AppUserDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/Business.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Business.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelo/BusinessDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/BusinessDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial02.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial02.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/frmCambiarContra.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmCambiarContra.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/frmInicioSesion.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmInicioSesion.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/frmInicioSesion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmInicioSesion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/frmPrincipal.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmPrincipal.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/frmPrincipal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmPrincipal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/frmUsuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmUsuario.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/frmUsuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmUsuario.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial02.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial02.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial02.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial02.pdb" afterDir="false" />
     </list>
@@ -85,8 +80,8 @@
         <option value="$PROJECT_DIR$/Modelo/Product.cs" />
         <option value="$PROJECT_DIR$/Modelo/AppOrder.cs" />
         <option value="$PROJECT_DIR$/Modelo/ProducDAO.cs" />
-        <option value="$PROJECT_DIR$/Vista/frmInicioSesion.cs" />
         <option value="$PROJECT_DIR$/Modelo/AppOrderDAO.cs" />
+        <option value="$PROJECT_DIR$/Vista/frmInicioSesion.cs" />
         <option value="$PROJECT_DIR$/Modelo/AppUserDAO.cs" />
         <option value="$PROJECT_DIR$/Vista/frmPrincipal.cs" />
         <option value="$PROJECT_DIR$/Vista/frmUsuario.cs" />
@@ -145,7 +140,7 @@
       <workItem from="1590621653218" duration="18610000" />
       <workItem from="1590641159379" duration="13230000" />
       <workItem from="1590654485810" duration="4148000" />
-      <workItem from="1590658670499" duration="3610000" />
+      <workItem from="1590658670499" duration="5991000" />
     </task>
     <servers />
   </component>
@@ -170,22 +165,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590662144376">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590664700452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590662144376" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590662144376">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590664700452" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590664700452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590662144376" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590662144376">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590664700452" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590664700452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590662144376" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590662144376">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590664700452" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590664700452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590662144376" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590664700452" />
     <state x="393" y="42" key="RiderGenerateDialog" timestamp="1590601887166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -24,7 +24,7 @@ namespace Parcial02
             try
             {
                 var user = AppUserDAO.GetUsuario(txtUsername.Text, txtPassword.Text);
-                if (user.username.Equals(" "))
+                if (user.username.Equals(" ") || user.password.Equals(" "))
                 {
                     MessageBox.Show("Usuario y/o contraseña incorrectos",
                         "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -43,6 +43,11 @@ namespace Parcial02
                         frmUsuario ventana2 = new frmUsuario(user);
                         ventana2.Show();
                         this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error", "Hugo App",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }

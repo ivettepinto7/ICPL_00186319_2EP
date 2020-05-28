@@ -32,9 +32,9 @@ namespace Parcial02
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             cmbUsuarios.DataSource = null;
-                cmbUsuarios.ValueMember = "password";
-                cmbUsuarios.DisplayMember = "username";
-                cmbUsuarios.DataSource = AppUserDAO.GetLista();
+            cmbUsuarios.ValueMember = "idUser";
+            cmbUsuarios.DisplayMember = "username";
+            cmbUsuarios.DataSource = AppUserDAO.GetLista();
 
                 cmbNegociosProd.DataSource = null;
                 cmbNegociosProd.ValueMember = "idBusiness";
@@ -93,10 +93,11 @@ namespace Parcial02
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            int idu = Convert.ToInt32(cmbUsuarios.SelectedValue.ToString());
             if (MessageBox.Show("¿Seguro que desea eliminar el usuario?",
                 "Hugo App", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-               AppUserDAO.EliminarUsuario(user.idUser);
+                AppUserDAO.EliminarUsuario(idu);
                MessageBox.Show("Se eliminó el usuario",
                    "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Information);
                actualizarDatos();

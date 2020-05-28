@@ -256,6 +256,8 @@ namespace Parcial02
             this.Controls.Add(this.tabControl1);
             this.Name = "frmUsuario";
             this.Text = "frmUsuario";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.frmUsuario_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
