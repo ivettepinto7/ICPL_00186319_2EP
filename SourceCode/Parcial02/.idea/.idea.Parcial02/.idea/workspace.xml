@@ -19,290 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f1b3867-a25d-4b88-acd0-56040f5f9cf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/.idea.Parcial02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/.idea/.idea.Parcial02/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/Address.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/AddressDAO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/AppOrder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/AppOrderDAO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/AppUser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/AppUserDAO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/Business.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/BusinessDAO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/ConnectionDB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/ProducDAO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Modelo/Product.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Parcial02.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Parcial02.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Properties/Settings.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Properties/Settings.settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Resources/Logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmCambiarContra.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmCambiarContra.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmCambiarContra.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmInicioSesion.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmInicioSesion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmInicioSesion.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmPrincipal.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmPrincipal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmPrincipal.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmUsuario.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmUsuario.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/Vista/frmUsuario.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Npgsql.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Npgsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Parcial02.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Parcial02.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/Parcial02.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Memory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Text.Encodings.Web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Text.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/bin/Debug/System.ValueTuple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.csproj.GenerateResource.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.frmCambiarContra.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.frmPrincipal.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.frmUsuario.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/obj/Debug/Parcial02.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/Microsoft.Bcl.AsyncInterfaces.1.0.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/net461/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/net461/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/ref/net461/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Microsoft.Bcl.AsyncInterfaces.1.0.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/Npgsql.4.1.3.1.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/net461/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/net461/Npgsql.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/net461/Npgsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netcoreapp3.0/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netcoreapp3.0/Npgsql.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netcoreapp3.0/Npgsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.0/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.0/Npgsql.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.0/Npgsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.1/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.1/Npgsql.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/lib/netstandard2.1/Npgsql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/Npgsql.4.1.3.1/postgresql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/System.Buffers.4.5.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/netstandard1.1/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/netstandard1.1/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/netstandard2.0/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/netstandard2.0/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/net45/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/net45/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/netstandard1.1/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/netstandard1.1/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/netstandard2.0/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/netstandard2.0/System.Buffers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Buffers.4.5.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/System.Memory.4.5.3.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/lib/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/lib/netstandard1.1/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/lib/netstandard1.1/System.Memory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/lib/netstandard2.0/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/lib/netstandard2.0/System.Memory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/ref/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Memory.4.5.3/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/System.Numerics.Vectors.4.5.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Numerics.Vectors.4.5.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/System.Runtime.CompilerServices.Unsafe.4.6.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Runtime.CompilerServices.Unsafe.4.6.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/System.Text.Encodings.Web.4.6.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netcoreapp3.0/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netcoreapp3.0/System.Text.Encodings.Web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netstandard1.0/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netstandard1.0/System.Text.Encodings.Web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netstandard2.0/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/lib/netstandard2.0/System.Text.Encodings.Web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Encodings.Web.4.6.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/System.Text.Json.4.6.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/net461/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/net461/System.Text.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/netcoreapp3.0/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/netcoreapp3.0/System.Text.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/netstandard2.0/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/lib/netstandard2.0/System.Text.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Text.Json.4.6.0/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/System.Threading.Tasks.Extensions.4.5.3.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/netstandard1.0/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/netstandard2.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/lib/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/netcoreapp2.1/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/ref/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.Threading.Tasks.Extensions.4.5.3/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/.signature.p7s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Parcial02/packages/System.ValueTuple.4.5.0/version.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="5f1b3867-a25d-4b88-acd0-56040f5f9cf7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,7 +129,7 @@
       <workItem from="1590658670499" duration="5991000" />
       <workItem from="1590675312497" duration="300000" />
       <workItem from="1590675799501" duration="803000" />
-      <workItem from="1590676621956" duration="1586000" />
+      <workItem from="1590676621956" duration="3055000" />
     </task>
     <servers />
   </component>
@@ -437,22 +154,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590678086926">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590679693677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590678086926" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590678086926">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590679693677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590678086926" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590678086926">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590679693677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590678086926" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590678086926">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590679693677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590678086926" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
     <state x="393" y="42" key="RiderGenerateDialog" timestamp="1590601887166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
