@@ -44,11 +44,11 @@ namespace Parcial02
             }
             else
                 tipo = false;
-            if (txtFullName.Text.Length >= 5 && txtUsername.Text.Length >= 5)
+            if (txtFullName.Text.Length >= 5 && txtUsername.Text.Length >= 5 && (rbAdmin.Checked || rbUser.Checked))
             {
                 AppUserDAO.CrearNuevo(txtFullName.Text, txtUsername.Text,txtUsername.Text, tipo);
                 MessageBox.Show(
-                        "Usuario agregado, los valores por defecto, la contraseña es el mismo usuario y el tipo es usuario",
+                        "Usuario agregado, los valores por defecto, la contraseña es el mismo usuario",
                         "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtFullName.Clear();
                 txtUsername.Clear();

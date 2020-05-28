@@ -140,7 +140,7 @@ namespace Parcial02
             // btnUpdateContra
             // 
             this.btnUpdateContra.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnUpdateContra.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (192)))));
+            this.btnUpdateContra.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnUpdateContra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateContra.Location = new System.Drawing.Point(463, 318);
             this.btnUpdateContra.Name = "btnUpdateContra";
@@ -153,7 +153,7 @@ namespace Parcial02
             // btnCancel
             // 
             this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (192)))));
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (0)))));
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Location = new System.Drawing.Point(96, 318);
             this.btnCancel.Name = "btnCancel";
@@ -185,12 +185,12 @@ namespace Parcial02
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "frmCambiarContra";
             this.Text = "frmCambiarContra";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.frmCambiarContra_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
         }
 
         private System.Windows.Forms.Button btnCancel;

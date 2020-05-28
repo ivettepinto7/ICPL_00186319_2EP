@@ -88,14 +88,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Modelo\Address.cs">
-          <SubType>Form</SubType>
-        </Compile>
-        <Compile Include="Modelo\Address.Designer.cs">
-          <DependentUpon>Address.cs</DependentUpon>
-        </Compile>
+        <Compile Include="Modelo\Address.cs" />
+        <Compile Include="Modelo\AddressDAO.cs" />
         <Compile Include="Modelo\AppUser.cs" />
         <Compile Include="Modelo\AppUserDAO.cs" />
+        <Compile Include="Modelo\Business.cs" />
+        <Compile Include="Modelo\BusinessDAO.cs" />
         <Compile Include="Modelo\ConnectionDB.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,9 +115,6 @@
         <Compile Include="Vista\frmPrincipal.Designer.cs">
           <DependentUpon>frmPrincipal.cs</DependentUpon>
         </Compile>
-        <EmbeddedResource Include="Modelo\Address.resx">
-          <DependentUpon>Address.cs</DependentUpon>
-        </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>

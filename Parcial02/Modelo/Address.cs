@@ -1,12 +1,16 @@
-﻿using System.Windows.Forms;
-
-namespace Parcial02.Modelo
+﻿namespace Parcial02.Modelo
 {
-    public partial class Address : Form
+    public class Address
     {
+        public int idAddress { get; set; }
+        public int idUser { get; set; }
+        public string address { get; set; }
+
         public Address()
         {
-            InitializeComponent();
+            idAddress = -1;
+            idUser = -1;
+            address = "";
         }
     }
 }
