@@ -7,6 +7,9 @@
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Modelo" t="Include">
+        <e p="Address.cs" t="Include" />
+        <e p="Address.Designer.cs" t="Include" />
+        <e p="Address.resx" t="Include" />
         <e p="AppUser.cs" t="Include" />
         <e p="AppUserDAO.cs" t="Include" />
         <e p="ConnectionDB.cs" t="Include" />
@@ -34,6 +37,7 @@
         <e p="frmInicioSesion.resx" t="Include" />
         <e p="frmPrincipal.cs" t="Include" />
         <e p="frmPrincipal.Designer.cs" t="Include" />
+        <e p="frmPrincipal.resx" t="Include" />
       </e>
     </e>
   </component>

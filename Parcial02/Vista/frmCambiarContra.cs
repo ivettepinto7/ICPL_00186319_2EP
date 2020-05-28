@@ -7,35 +7,30 @@ namespace Parcial02
 {
     public partial class frmCambiarContra : Form
     {
-        public frmCambiarContra()
+        private AppUser user;
+        public frmCambiarContra(AppUser pUsuario)
         {
             InitializeComponent();
+            user = pUsuario;
         }
-
+        
         private void btnUpdateContra_Click(object sender, EventArgs e)
         {
-            bool actualIgual = AppUserDAO.GetUsuario(txtUser, txtContraActual);
-            bool NuevaIgual = txtNcontra.Text.Equals(txtCcontra.Text);
-            bool nuevaValida = txtNcontra.Text.Length > 0;
-            if (actualIgual && NuevaIgual && nuevaValida)
+            try
             {
-                try
+                if (txtNcontra.Text.Equals(txtCcontra.Text))
                 {
-                    AppUserDAO.ActualizarContra(txtUser.Text, txtNcontra.Text);
-                    MessageBox.Show("Contraseña actualizada con éxito",
+                    AppUserDAO.ActualizarContra(user.idUser, txtCcontra.Text);
+                    MessageBox.Show("Se actualizó la contraseña",
                         "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    
-                    this.Close();
                 }
-                catch (Exception)
-                {
-                    MessageBox.Show("Favor verifique que los datos ingresados sean válidos",
-                        "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                else
+                    MessageBox.Show("Datos incorrectos", "Hugo App",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Favor verifique que los datos ingresados sean válidos",
+                MessageBox.Show("Verifique que los datos ingresados sean válidos",
                     "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -44,6 +39,25 @@ namespace Parcial02
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmCambiarContra_Load(object sender, EventArgs e)
+        {
+            labelUser.Text = user.username;
+        }
+        
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Seguro que desea salir?", 
+                "Hugo App", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+        
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

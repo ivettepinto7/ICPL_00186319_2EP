@@ -24,7 +24,7 @@ namespace Parcial02
             try
             {
                 var user = AppUserDAO.GetUsuario(txtUsername.Text, txtPassword.Text);
-                if (user.username.Equals("") || user.password.Equals(""))
+                if (user.username.Equals(" "))
                 {
                     MessageBox.Show("Usuario y/o contraseña incorrectos",
                         "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -38,6 +38,31 @@ namespace Parcial02
                     this.Hide();
                 }
             }
+            catch (Exception)
+            {
+                MessageBox.Show("Error", "Hugo App",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private void btnActualizarContra_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var user = AppUserDAO.GetUsuario(txtUsername.Text, txtPassword.Text);
+                if (user.username.Equals(" "))
+                {
+                    MessageBox.Show("Usuario y/o contraseña incorrectos",
+                        "Hugo App", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    frmCambiarContra ventana2 = new frmCambiarContra(user);
+                    ventana2.ShowDialog();
+                    this.Hide();
+                }
+            }
             catch (Exception exception)
             {
                 MessageBox.Show(exception.ToString());
@@ -45,11 +70,18 @@ namespace Parcial02
             }
         }
 
-
-        private void btnActualizarContra_Click(object sender, EventArgs e)
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            frmCambiarContra ventana2 = new frmCambiarContra();
-            ventana2.ShowDialog();
+            if (MessageBox.Show("¿Seguro que desea salir?", 
+                "Hugo App", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+        
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
