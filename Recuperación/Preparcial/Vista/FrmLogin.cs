@@ -29,8 +29,7 @@ namespace Preparcial
         private void PoblarControlers()
         {
             cmbUser.DataSource = null;
-            //Corrección: la variable se llama Contrasena, no contrasenia
-            cmbUser.ValueMember = "Contrasena";
+            cmbUser.ValueMember = "Contrasenia";
             cmbUser.DisplayMember = "NombreUsuario";
             cmbUser.DataSource = ControladorUsuario.GetUsuarios();
         }
@@ -38,26 +37,18 @@ namespace Preparcial
         // EventHandler para detectar el click para inciar sesion
         private void BttnLogin_Click(object sender, EventArgs e)
         {
-            //Correcion: Try-catch para capturar excepciones
-            try
+            // Si la contrasena del textBox es igual al SelectedValue del comboBox, entonces iniciar sesion
+            if (textBox1.Text.Equals(cmbUser.SelectedValue.ToString()))
             {
-                // Si la contrasena del textBox es igual al SelectedValue del comboBox, entonces iniciar sesion
-                if (textBox1.Text.Equals(cmbUser.SelectedValue.ToString()))
-                {
-                    // Crear ventana principal enviandole el item seleccionado
-                    // Recordar que SelectedItem devuelve un objeto, con polimorfismo se convierte a Usuario
-                    FrmMain frmMain = new FrmMain((Usuario) cmbUser.SelectedItem);
-                    // Esconder frmLogin y mostrar frmMain
-                    Hide();
-                    frmMain.Show();
-                }
-                else
-                    MessageBox.Show("Contrasena incorrecta");
+                // Crear ventana principal enviandole el item seleccionado
+                // Recordar que SelectedItem devuelve un objeto, con polimorfismo se convierte a Usuario
+                FrmMain frmMain = new FrmMain((Usuario)cmbUser.SelectedItem);
+                // Esconder frmLogin y mostrar frmMain
+                Hide();
+                frmMain.Show();
             }
-            catch (Exception)
-            {
-                MessageBox.Show("Verifique contrasenia");
-            }
+            else
+                MessageBox.Show("Contrasena incorrecta");
         }
 
         // EventHandler para invocar al form de actualizar contrasena
