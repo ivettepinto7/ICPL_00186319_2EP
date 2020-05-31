@@ -43,7 +43,8 @@ namespace Preparcial.Vista
         private void ActualizarOrdenesUsuario()
         {
             dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
-            cmbProductMakeOrder.ValueMember = "idarticulo";
+            //Corrección: la propiedad se llama idArticulo, no idarticulo
+            cmbProductMakeOrder.ValueMember = "idArticulo";
             cmbProductMakeOrder.DisplayMember = "producto";
             cmbProductMakeOrder.DataSource = ControladorInventario.GetProductos();
         }

@@ -8,13 +8,19 @@ namespace Preparcial.Modelo
 {
     public class Inventario
     {
-        string idArticulo { get; }
-        string producto { get; }
-        string descripcion { get; }
-        string precio { get; }
-        string stock { get; }
+        //Corrección: agregar modificador de acceso
+         public string idArticulo { get; }
+         //Corrección: agregar modificador de acceso
+         public string producto { get; }
+         //Corrección: agregar modificador de acceso
+         public string descripcion { get; }
+         //Corrección: agregar modificador de acceso
+         public string precio { get; }
+         //Corrección: agregar modificador de acceso
+         public string stock { get; }
 
-        public Inventario(string idArticulo, string producto, string descripcion, string precio, string stock)
+        //Corrección: orden de parámetros
+        public Inventario(string idArticulo, string producto, string precio, string descripcion, string stock)
         {
             this.idArticulo = idArticulo;
             this.producto = producto;

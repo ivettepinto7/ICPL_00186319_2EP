@@ -71,8 +71,8 @@ namespace Preparcial.Controlador
         public static void CrearUsuario(string usuario)
         {
             try
-            {
-                ConexionBD.EjecutarComando("INSERT INTO USUARIO(nombreUsuario, contrasenia, tipo)" +
+            {//Corrección: La columna se llama nombre, no NombreUsuario
+                ConexionBD.EjecutarComando("INSERT INTO USUARIO(nombre, contrasenia, tipo)" +
                     $" VALUES('{usuario}', '{usuario}', false)");
 
                 MessageBox.Show("Se ha agregado el nuevo usuario, contrasenia igual al nombre");

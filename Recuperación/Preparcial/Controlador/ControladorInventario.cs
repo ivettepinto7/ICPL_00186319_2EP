@@ -32,29 +32,29 @@ namespace Preparcial.Controlador
             // Declaracion de lista y DataTable
             var productos = new List<Inventario>();
             DataTable dt = null;
-
+            //Corrección: solo poner la consulta y conexión a BD
+            //en try-catch, lo demas no puede arrojar una excepción 
             try
             {
                 // Consulta para llenar el DataTable
                 dt = ConexionBD.EjecutarConsulta("SELECT * FROM INVENTARIO");
-
-                // Por cada fila del DataTable, crear un nuevo usuario anadiendolo a la lista
-                foreach(DataRow dr in dt.Rows)
-                {
-                    productos.Add(new Inventario
-                        (
-                            dr[0].ToString(),
-                            dr[1].ToString(),
-                            dr[2].ToString(),
-                            dr[3].ToString(),
-                            dr[4].ToString()
-                        )
-                    );
-                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Ha ocurrido un error");
+            }
+            // Por cada fila del DataTable, crear un nuevo usuario anadiendolo a la lista
+            foreach(DataRow dr in dt.Rows)
+            {
+                productos.Add(new Inventario
+                    (
+                        dr[0].ToString(),
+                        dr[1].ToString(),
+                        dr[2].ToString(),
+                        dr[3].ToString(),
+                        dr[4].ToString()
+                    )
+                );
             }
 
             return productos;
@@ -65,7 +65,8 @@ namespace Preparcial.Controlador
         {
             try
             {
-                ConexionBD.EjecutarComando("INSERT INTO INVENTARIO(nombreArticulo, descripcion, precio, stock)" +
+                //Corrección: la columna se llama nombreArt, no nombreArticulo
+                ConexionBD.EjecutarComando("INSERT INTO INVENTARIO(nombreArt, descripcion, precio, stock)" +
                     $" VALUES('{nombre}', '{descripcion}', {precio}, {stock})");
 
                 MessageBox.Show("Se ha agregado el producto");

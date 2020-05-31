@@ -11,8 +11,8 @@ namespace Preparcial.Controlador
             DataTable pedidos = null;
 
             try
-            {
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArticulo, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
+            {//Corrección: en lugar de nombreArticulo es NombreArt
+                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArt, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
                                             " FROM PEDIDO p, INVENTARIO i, USUARIO u" +
                                             " WHERE p.idArticulo = i.idArticulo" +
                                             " AND p.idUsuario = u.idUsuario" +
@@ -31,8 +31,8 @@ namespace Preparcial.Controlador
             DataTable pedidos = null;
 
             try
-            {
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArticulo, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
+            {//Corrección: en lugar de nombreArticulo es nombreArt
+                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArt, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
                                             " FROM PEDIDO p, INVENTARIO i, USUARIO u" +
                                             " WHERE p.idArticulo = i.idArticulo" +
                                             " AND p.idUsuario = u.idUsuario");
