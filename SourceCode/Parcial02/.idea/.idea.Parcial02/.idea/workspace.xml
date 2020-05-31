@@ -130,7 +130,8 @@
       <workItem from="1590675312497" duration="300000" />
       <workItem from="1590675799501" duration="803000" />
       <workItem from="1590676621956" duration="3055000" />
-      <workItem from="1590680489163" duration="4140000" />
+      <workItem from="1590680489163" duration="5755000" />
+      <workItem from="1590686835407" duration="323000" />
     </task>
     <servers />
   </component>
@@ -155,22 +156,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590679693677">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590686612496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590679693677">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590686612496" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590686612496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590679693677">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590686612496" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590686612496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590679693677">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590686612496" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590686612496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590679693677" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590686612496" />
     <state x="393" y="42" key="RiderGenerateDialog" timestamp="1590601887166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
