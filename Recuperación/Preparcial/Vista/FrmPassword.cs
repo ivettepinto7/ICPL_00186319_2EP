@@ -30,7 +30,7 @@ ActualizarControlers();
 
 private void ActualizarControlers()
 {
-//Corrección: el datasource primero debe ser null
+//Corrección: el datasource primero debe ser null por buena practica
     comboBox1.DataSource = null;
     comboBox1.ValueMember = "Contrasena";
     //Correección: Display member antes de DataSource

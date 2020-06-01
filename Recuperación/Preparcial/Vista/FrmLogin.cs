@@ -56,7 +56,8 @@ namespace Preparcial
         private void BttnUpdatePassword_Click(object sender, EventArgs e)
         {
             FrmPassword frmPassword = new FrmPassword();
-            frmPassword.Show();
+            //Corrección: ShowDialog en lugar de Show
+            frmPassword.ShowDialog();
             //Corrección: actualizar todo
             PoblarControlers();
         }
