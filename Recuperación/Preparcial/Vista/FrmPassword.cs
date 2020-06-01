@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Preparcial.Vista
 {
@@ -29,9 +30,12 @@ ActualizarControlers();
 
 private void ActualizarControlers()
 {
-comboBox1.ValueMember = "Contrasena";
-comboBox1.DataSource = ControladorUsuario.GetUsuarios();
-comboBox1.DisplayMember = "NombreUsuario";
+//Corrección: el datasource primero debe ser null
+    comboBox1.DataSource = null;
+    comboBox1.ValueMember = "Contrasena";
+    //Correección: Display member antes de DataSource
+    comboBox1.DisplayMember = "NombreUsuario";
+    comboBox1.DataSource = ControladorUsuario.GetUsuarios();
 }
 
 private void Button1_Click(object sender, EventArgs e)
@@ -40,10 +44,12 @@ if (txtOldPassword.Text.Equals(comboBox1.SelectedValue.ToString()))
 {       
 var obtenerUsuario = (Usuario)comboBox1.SelectedItem;
 
-ActualizarControlers();
-                
 ControladorUsuario.ActualizarContrasena(obtenerUsuario.IdUsuario,
 txtNewPassword.Text);
+//Corrección: actualizar controles despues de actualizar contraseña
+ActualizarControlers();
+//Corrección: Cerrar ventana para volver al login
+this.Close();
 }
 else
     MessageBox.Show("Contrasena actual incorrecta");

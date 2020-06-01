@@ -8,7 +8,10 @@ namespace Preparcial.Modelo
 {
     public class Inventario
     {
-        //Corrección: agregar modificador de acceso
+        //Corrección: agrega
+        //
+        //+
+        //r modificador de acceso
          public string idArticulo { get; }
          //Corrección: agregar modificador de acceso
          public string producto { get; }
